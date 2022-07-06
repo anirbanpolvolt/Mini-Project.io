@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+.light-theme{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Comfortaa', comfortaa light;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(92, 92, 92, 0.477);
+    backdrop-filter: blur(2rem);
+}
+#home{
+    width: 30px;
+    cursor: pointer;
+    position:fixed;
+    top: 10px;
+    left: 28%;
+}
+#home:hover{
+    opacity: .7;
+    transition: 0.5s;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+    position:fixed;
+    top: 10px;
+    right: 2%;
+}
+nav{
+    width: 36%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: 14px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color:red;
+    transition: 0.5s;
+}
+.logo h1{
+    font-size: 45px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 1px;
+    left: 10px; 
+    font-weight: lighter;
+}
+.logo h2{
+    font-size: 45px;
+    color: red;
+    position: absolute;
+    top: 1px;
+    left: 62px;
+    font-weight: lighter;
+}
+.logo h3{
+    font-size: 45px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 1px;
+    left: 95px; 
+    font-weight: lighter;
+}
+.phone-1{
+    background: url("images/hero/phone1.png");
+    background-color: var(--primary-color);
+    
+ }
+
+ .hero{
+    height: 80.2rem;
+    background-size: auto 70.7rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: .6rem solid var(--secondary-color);
+ }
+
+ .phone-1{
+    border-top: none;
+    background-size: auto 47rem;
+    background-position: bottom;
+ }
+
+ .title{
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 7.5rem;
+ }
+
+ .title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+ }
+
+ .title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+ }
+
+ .title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+ }
+
+ .cta{
+    text-align: center;
+    margin-top: 1.8rem;
+ }
+
+ .cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-weight: lighter;
+    cursor: pointer;
+ }
+
+ .cta-link:nth-child(2){
+    margin-left: 2.6rem;
+ }
+
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+/*tws section*/
+
+.tws-1{
+    background: url("images/hero/banner\ edit\ png.png") ;
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    height: 69.2rem;
+    background-size: auto 45rem;
+    background-position: bottom;
+}
+
+.watch{
+    background: url("images/hero/wrist.png") ;
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    height: 69.2rem;
+    background-size: auto 47rem;
+    background-position: bottom;
+}
+
+.title-heading-watch{
+    font-size: 5.6rem;
+   }
+.one1{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+    color:red;
+    position: absolute;
+    top: 160px;
+    left: 880px;
+    font-weight: lighter;
+}
+.one2{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+    color:red;
+    position: absolute;
+    top: 882px;
+    left: 835px;
+    font-weight: lighter;
+}
+.one3{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+    color:red;
+    position: absolute;
+    top: 1582px;
+    left: 858px;
+    font-weight: lighter;
+}
+.title{
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 7.5rem;
+ }
+
+ .title-heading1{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+    margin-top: 8.6rem;
+ }
+
+ .title-sub-heading1{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+ }
+
+ .title-price1{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .88rem;
+ }
+ .cta1{
+    text-align: center;
+    margin-top: 1.8rem;
+ }
+
+ .cta-link1{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-weight: lighter;
+    cursor: pointer;
+ }
+ .cta-link1:nth-child(2){
+    margin-left: 2.6rem;
+ }
+
+.cta-link1:hover{
+    border-bottom: 2px solid #66bbff;
+}

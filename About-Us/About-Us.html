@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>About Us</title>
+        <link rel="stylesheet" href="About Us(css).css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <header>
+                <img src="images/sun.png" id="icon">
+            </header>
+           
+               <div class="hero"></div>
+
+               <div class="Project">
+               <h1>MINI</h1>
+               <h2>PR</h2>
+               <h3>O</h3>
+               <h4>JECT</h4>
+               <h5>BY</h5>
+               <h6>Nayan Jyoti Das (200310007027)</h6>
+               <h7>Rishik Baishya (200310007039)</h7>
+               <h8>Subham Das (200310007049)</h8>
+            </div>
+
+            
+
+
+
+               <script>
+                var icon = document.getElementById("icon");
+        
+                icon.onclick = function(){
+                    document.body.classList.toggle("light-theme")
+                    if(document.body.classList.contains("light-theme")){
+                        icon.src = "images/moon.png";
+                    }else{
+                        icon.src = "images/sun.png";
+                    }
+                }
+            </script>
+
+
+    </body>
+</html>

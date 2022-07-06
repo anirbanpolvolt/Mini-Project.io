@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="Products(css).css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../\home.html"><img src="images/icons/home.png" id="home"></a>
+        <img src="images/icons/sun.png" id="icon">
+        <div class="logo">
+            <h1>ev</h1>
+            <h2>o</h2>
+            <h3>lv</h3>
+       </div>
+       <nav>
+        <ul>
+            <li><a href="Products.html">Smartphone</a></li>
+            <li><a href="Products.html">Audio</a></li>
+            <li><a href="Products.html">Watch</a></li>
+            <li><a href="D:\Mini Project\About Us\About Us.html" target="_blank">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    </header>
+
+<section class="hero phone-1">
+        <div class="title">
+            <h2 class="title-heading1">Phone</h2>
+            <h4 class="one1">1</h4>
+            <h3 class="title-sub-heading1">Pro cameras. Pro display. Pro performance.</h3>
+            <p class="title-price1">From Rs. 44,995*</p>
+        </div>
+        <div class="cta1">
+            <h1 class="cta-link1">Learn more</h1>
+            <h2 class="cta-link1">Buy</h2> 
+        </div>
+</section>
+
+<section class="hero tws-1">
+    <div class="container">
+        <div class="title title-dark">
+            <h2 class="title-heading">Ear</h2>
+            <h4 class="one2">1</h4>
+            <h3 class="title-sub-heading">Pure sound. Precisely tuned</h3>
+            <p class="title-price">From Rs. 4,995*</p>
+        </div>
+        <div class="cta">
+            <h1 class="cta-link">Learn more</h1>
+            <h2 class="cta-link">Buy</h2> 
+        </div>
+    </div>
+</section>
+
+<section class="hero watch">
+    <div class="container">
+        <div class="title title-dark">
+            <h2 class="title-heading-watch">Wrist</h2>
+            <h4 class="one3">1</h4>
+            <h3 class="title-sub-heading">With the new always-on display. <br>
+            You've never seen a watch like this before.</h3>
+            <p class="title-price">From Rs. 14,995</p>
+            
+        </div>
+        <div class="cta">
+            <h1 class="cta-link">Learn more</h1>
+            <h2 class="cta-link">Buy</h2> 
+        </div>
+    </div>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("light-theme")
+            if(document.body.classList.contains("light-theme")){
+                icon.src = "images/icons/moon.png";
+            }else{
+                icon.src = "images/icons/sun.png";
+            }
+        }
+    </script>
+</body>
+</html>

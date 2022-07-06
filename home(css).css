@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+:root{
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+.light-theme{
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(92, 92, 92, 0.477);
+    backdrop-filter: blur(2rem);
+}
+#home{
+    width: 30px;
+    cursor: pointer;
+    position:fixed;
+    top: 10px;
+    left: 28%;
+}
+#home:hover{
+    opacity: .7;
+    transition:0.5;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+    position:fixed;
+    top: 10px;
+    right: 2%;
+}
+nav{
+    width: 36%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: 14px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color:red;
+    transition: 0.5s;
+}
+.hero{
+    height: 483vh;
+    width: 100%;
+    background: var(--primary-color);
+    position: relative; 
+}
+.hero2{
+    height: 40vh;
+    width: 100%;
+    background: var(--secondary-color);
+    position: relative; 
+}
+.logo h1{
+    font-size: 45px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 1px;
+    left: 10px; 
+    font-weight: lighter;
+}
+.logo h2{
+    font-size: 45px;
+    color: red;
+    position: absolute;
+    top: 1px;
+    left: 62px;
+    font-weight: lighter;
+}
+.logo h3{
+    font-size: 45px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 1px;
+    left: 95px; 
+    font-weight: lighter;
+}
+.phone1{
+    width: 27%;
+    height: 90%;
+    position: absolute;
+    bottom: -10px;
+    right: 850px;
+    transition: bottom 1s;   
+}
+.phone1:hover{
+    bottom: 40px;
+}
+.ui1{
+    width: 17%;
+    height: 75%;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -1223px;
+    left: 60px;
+    transition: bottom 1s;     
+}
+.ui1:hover{
+    bottom: -1183px;
+}
+.ui2{
+    width: 17%;
+    height: 75%;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -1223px;
+    left: 330px;
+    transition: bottom 1s; 
+}
+.ui2:hover{
+    bottom: -1183px;
+}
+.ui3{
+    width: 17%;
+    height: 75%;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -1223px;
+    left: 600px;
+    transition: bottom 1s; 
+}
+.ui3:hover{
+    bottom: -1183px;
+}
+.phone4{
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 2800px;
+    left: 450px;
+}
+.wrist{
+    position: absolute;
+    top: 600px;
+    right: 1px;
+    transition: right 1s;
+}
+.wrist:hover{
+    right: 41px;
+}
+.buds{
+    width:100%;
+    height: 95%;
+    position: absolute;
+    top:2100px;
+}
+.logo2 h5{
+    font-size: 45px;
+    color: var(--primary-color);
+    position: absolute;
+    top: 3480px;
+    left: 43px;
+    font-weight: lighter;
+}
+.logo2 h6{
+    font-size: 45px;
+    position: absolute;
+    top: 3480px;
+    left: 95px;
+    color: red;
+    font-weight: lighter;
+}
+.logo2 h7{
+    font-size: 45px;
+    color: var(--primary-color);
+    position: absolute;
+    top: 3480px;
+    left: 128px;
+}
+.info{
+    margin-left:8%;
+    margin-right: 15%
+}
+.info h1{
+    font-size: 40px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    position: absolute;
+    top: 1600px;
+    left: 1000px;
+}
+.email h2{
+    font-size: 18px;
+    color: var(--primary-color);
+    position: absolute;
+    top: 3560px;
+    left: 43px;
+}
+.email h3{
+    font-size: 25px;
+    color: var(--primary-color);
+    position: absolute;
+    top: 3530px;
+    left: 910px; 
+}
+.id{
+    width:35%;  
+    position: absolute;
+    top: 3598px;
+    left: 42px;
+    border:2px solid var(--primary-color);
+    border-radius: 4px;
+    padding: 15px;
+}
+.subscribe{
+    width: 15%;
+    height: 5%; 
+    position: absolute;
+    top: 3605px;
+    left: 340px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight:bolder;
+    color: var(--secondary-color);
+    background-color:red;
+    border:red;
+    cursor: pointer;
+}
+.text h3{
+    font-size: 40px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+.text p1{
+    font-size: 40px;
+    color:red;
+    position: absolute;
+    top: 432px;
+    left: 950px;
+}
+.text h4{
+    font-size: 40px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 900px;
+    left: 150px;
+}
+.text p2{
+    font-size: 40px;
+    color:red;
+    position: absolute;
+    top: 1035px;
+    left: 270px;
+}
+.text h5{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 2200px;
+    left: 40px;  
+}
+.text h6{
+    font-size: 40px;
+    color:#fff;
+    position: absolute;
+    top: 2600px;
+    left: 1200px;
+}
+.text h2{
+    font-size: 40px;
+    color:red;
+    position: absolute;
+    top: 2600px;
+    left: 1290px;
+    font-weight: lighter;
+}
+.text h1{
+    font-size: 40px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 3000px;
+    left: 150px;
+}
+.playstore{
+    width: 12%;
+    height: 10%;
+    position: absolute;
+    top: 3580px;
+    left: 900px; 
+    cursor: pointer;
+}
+.appstore{
+    width: 11%;
+    height: 7.2%;
+    position: absolute;
+    top: 3589px;
+    left: 1100px;
+    cursor: pointer;
+}
+.insta{
+    width: 1.5%;
+    height: 3.3%;
+    position: absolute;
+    top: 3670px;
+    left: 50px;
+    cursor: pointer;
+}
+.fb{
+    width: .8%;
+    height: 3.3%;
+    position: absolute;
+    top: 3670px;
+    left: 100px;
+    cursor: pointer;
+}
+.twitter{
+    width: 1.4%;
+    height: 3.3%;
+    position: absolute;
+    top: 3670px;
+    left: 141px;
+    cursor: pointer;
+}
+.linkedin{
+    width: 1.4%;
+    height: 3.3%;
+    position: absolute;
+    top: 3670px;
+    left: 190px;
+    cursor: pointer;
+}
